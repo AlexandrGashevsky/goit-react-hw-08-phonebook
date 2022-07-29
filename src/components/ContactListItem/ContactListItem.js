@@ -1,13 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import contactListItemStyles from './ContactListItem.module.css'
-import { Avatar, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import {
-  ListItem,
-  ListItemContent,
-  ListItemDecorator,
-  Typography,
   ListDivider,
 } from '@mui/joy';
 import { useDeleteContactsMutation } from '../../redux/contactSlice';
